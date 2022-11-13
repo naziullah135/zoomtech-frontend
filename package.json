@@ -1,0 +1,32 @@
+{
+  "name": "zoom-tech-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.3",
+    "material-ui-popup-state": "^4.0.2",
+    "next": "12.2.5",
+    "next-images": "^1.8.4",
+    "nextjs-progressbar": "^0.0.14",
+    "react": "18.2.0",
+    "react-compare-slider": "^2.2.0",
+    "react-dom": "18.2.0",
+    "react-swipeable-views": "^0.14.0",
+    "react-typing-effect": "^2.0.5",
+    "sweetalert2": "^11.4.33",
+    "swiper": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
